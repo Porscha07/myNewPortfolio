@@ -6,6 +6,13 @@
       <img class="logoImage" [src]="logoSrc" >
     </span>
   </div>
-
+<!-- ***********************************************HEADER ITEMS PANEL************************************************** -->
+<div class="clickable headerItemsPanel">
+  <div class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.about.url)">{{ headerItems.about.headerText }}</div>
+  <div class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.whyHireMe.url)">{{ headerItems.whyHireMe.headerText }}</div>
+  <div class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.skills.url)">{{ headerItems.skills.headerText }}</div>
+  <div class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.portfolio.url)">{{ headerItems.portfolio.headerText }}</div>
+  <div class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.contact.url)">{{ headerItems.contact.headerText }}</div>
+</div>
 
 </div>
