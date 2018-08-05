@@ -5,6 +5,7 @@ import { WhyHireMeComponent } from './components/why-hire-me/why-hire-me.compone
 import { SkillsComponent } from './components/skills/skills.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { MainImageComponent } from './components/main-image/main-image.component';
 
 export const APP_COMPONENTS = [
     AppComponent,
@@ -14,5 +15,6 @@ export const APP_COMPONENTS = [
     SkillsComponent,
     PortfolioComponent,
     ContactComponent,
+    MainImageComponent,
 ];
 

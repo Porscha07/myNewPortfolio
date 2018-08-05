@@ -25,8 +25,7 @@ export class AppHeaderComponent implements OnInit {
   ngOnInit() {
   }
 
-  public home(): void { // test functionality with another component in the routes barel.
-    // debugger;
+  public home(): void {
     this._router.navigate(['']);
   }
 
