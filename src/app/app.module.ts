@@ -5,10 +5,12 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './components/app/app.component';
 import { APP_COMPONENTS } from '../app/app.components';
 import { APP_ROUTES } from '../app/app.routes';
+import { ServicesComponent } from './services/services.component';
 
 @NgModule({
   declarations: [
    ...APP_COMPONENTS,
+   ServicesComponent,
   ],
   imports: [
     BrowserModule,

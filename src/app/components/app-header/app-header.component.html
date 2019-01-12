@@ -1,18 +1,23 @@
 <div class="headerPanel" id="appHeader">
 
   <!-- *****************************************HEADER LOGO PANEL********************************************* -->
-  <div class="clickable homeIconPanel">
+  <nav class="clickable homeIconPanel">
     <span class="logoContainer" (click)="home()">
       <img class="logoImage" [src]="logoSrc" >
     </span>
-  </div>
+    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.about.url)">{{ headerItems.about.headerText }}</span>
+    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.services.url)">{{ headerItems.services.headerText }}</span>
+    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.portfolio.url)">{{ headerItems.portfolio.headerText }}</span>
+    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.testimonials.url)">{{ headerItems.testimonials.headerText }}</span>
+    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.contact.url)">{{ headerItems.contact.headerText }}</span>
+  </nav>
 <!-- ***********************************************HEADER ITEMS PANEL************************************************** -->
-<div class="clickable headerItemsPanel">
+<!-- <nav class="clickable headerItemsPanel">
   <div class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.about.url)">{{ headerItems.about.headerText }}</div>
   <div class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.whyHireMe.url)">{{ headerItems.whyHireMe.headerText }}</div>
   <div class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.skills.url)">{{ headerItems.skills.headerText }}</div>
   <div class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.portfolio.url)">{{ headerItems.portfolio.headerText }}</div>
   <div class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.contact.url)">{{ headerItems.contact.headerText }}</div>
-</div>
+</nav> -->
 
 </div>
