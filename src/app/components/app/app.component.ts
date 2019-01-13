@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as Defaults from '../../constants/defaults';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent {
   title = 'myNewPortfolio';
+  public mainImageSrc: string = Defaults.PORTFOLIO_MAIN_IMAGE_RELATIVE_PATH;
 }

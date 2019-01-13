@@ -3,21 +3,12 @@
   <!-- *****************************************HEADER LOGO PANEL********************************************* -->
   <nav class="clickable homeIconPanel">
     <span class="logoContainer" (click)="home()">
-      <img class="logoImage" [src]="logoSrc" >
+      <b><img class="logoImage" [src]="logoSrc" ></b>
     </span>
-    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.about.url)">{{ headerItems.about.headerText }}</span>
-    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.services.url)">{{ headerItems.services.headerText }}</span>
-    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.portfolio.url)">{{ headerItems.portfolio.headerText }}</span>
-    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.testimonials.url)">{{ headerItems.testimonials.headerText }}</span>
-    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.contact.url)">{{ headerItems.contact.headerText }}</span>
+    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.about.url)"><b>{{ headerItems.about.headerText }}</b></span>
+    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.services.url)"><b>{{ headerItems.services.headerText }}</b></span>
+    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.portfolio.url)"><b>{{ headerItems.portfolio.headerText }}</b></span>
+    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.testimonials.url)"><b>{{ headerItems.testimonials.headerText }}</b></span>
+    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.contact.url)"><b>{{ headerItems.contact.headerText }}</b></span>
   </nav>
-<!-- ***********************************************HEADER ITEMS PANEL************************************************** -->
-<!-- <nav class="clickable headerItemsPanel">
-  <div class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.about.url)">{{ headerItems.about.headerText }}</div>
-  <div class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.whyHireMe.url)">{{ headerItems.whyHireMe.headerText }}</div>
-  <div class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.skills.url)">{{ headerItems.skills.headerText }}</div>
-  <div class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.portfolio.url)">{{ headerItems.portfolio.headerText }}</div>
-  <div class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.contact.url)">{{ headerItems.contact.headerText }}</div>
-</nav> -->
-
 </div>
