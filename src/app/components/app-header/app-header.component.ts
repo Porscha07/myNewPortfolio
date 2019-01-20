@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { RouterModule, Routes, Router } from '@angular/router';
 
 import * as Defaults from '../../constants/defaults';
 
@@ -11,10 +11,10 @@ import * as Defaults from '../../constants/defaults';
 export class AppHeaderComponent implements OnInit {
   public logoSrc: string = Defaults.PORTFOLIO_LOGO_RELATIVE_PATH;
   public headerItems = {
-    about: { url: 'about', headerText: 'About' },
+    about: { url: 'about', headerText: 'About'},
     testimonials: { url: 'testimonials', headerText: 'Testimonials' },
     skills: { url: 'skills', headerText: 'Skills' },
-    portfolio: { url: 'portfolio', headerText: 'Portfolio'},
+    portfolio: { url: 'portfolio', headerText: 'Work'},
     contact: { url: 'contact', headerText: 'Contact'},
     services: { url: 'services', headerText: 'Services' },
   };

@@ -1,12 +1,36 @@
+
 .logoContainer {
-    padding-right: 8em;
+    padding-right: 16em;
 }
 
 .headerItem {
-    font-size: 1em;
-    margin-right: 6em;
+    font-size: 1.8em;
+    margin-right: 1em;
+    color: white;
+}
+
+.headerItem:hover {
+    color: DeepPink;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
+    transition: border-bottom 0.5s, color 0.2s;
 }
 
 .logImage {
     height: 2em;
+}
+
+.nameSrc {
+    font-size: 1.8em;
+    margin-left: 3em;
+    color: black;
+}
+
+.nameSrc:hover {
+    color: DeepPink;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
+    transition: border-bottom 0.5s, color 0.2s;
 }
