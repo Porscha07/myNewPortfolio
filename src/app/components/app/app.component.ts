@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+
 import * as Defaults from '../../constants/defaults';
 
 @Component({

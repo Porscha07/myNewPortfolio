@@ -1,4 +1,5 @@
-import { Routes } from '@angular/router';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './components/app/app.component';
 import { AboutComponent } from './components/about/about.component';
@@ -13,7 +14,17 @@ export const APP_ROUTES: Routes = [
     { path: 'about', component: AboutComponent },
     { path: 'testimonials', component: TestimonialsComponent },
     { path: 'skills', component: SkillsComponent },
-    { path: 'portfolio', component: PortfolioComponent },
+    { path: 'work', component: PortfolioComponent },
     { path: 'contact', component: ContactComponent },
     { path: 'services', component: ServicesComponent },
 ];
+
+@NgModule({
+    imports: [
+        RouterModule.forRoot(APP_ROUTES)
+    ],
+    exports: [
+        RouterModule
+    ]
+})
+export class AppRoutingModule { }

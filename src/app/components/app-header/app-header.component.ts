@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterModule, Routes, Router } from '@angular/router';
+import { Router } from '@angular/router';
 
 import * as Defaults from '../../constants/defaults';
 
@@ -14,7 +14,7 @@ export class AppHeaderComponent implements OnInit {
     about: { url: 'about', headerText: 'About'},
     testimonials: { url: 'testimonials', headerText: 'Testimonials' },
     skills: { url: 'skills', headerText: 'Skills' },
-    portfolio: { url: 'portfolio', headerText: 'Work'},
+    portfolio: { url: 'work', headerText: 'Work'},
     contact: { url: 'contact', headerText: 'Contact'},
     services: { url: 'services', headerText: 'Services' },
   };
