@@ -25,11 +25,12 @@
     "@ngrx/store": "^6.1.0",
     "@ngrx/store-devtools": "^6.1.0",
     "core-js": "^2.5.4",
+    "jshint": "^2.10.2",
     "rxjs": "^6.0.0",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.7.0",
+    "@angular-devkit/build-angular": "^0.13.8",
     "@angular/cli": "~6.1.1",
     "@angular/compiler-cli": "^6.1.0",
     "@angular/language-service": "^6.1.0",

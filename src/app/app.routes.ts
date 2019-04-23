@@ -14,7 +14,7 @@ export const APP_ROUTES: Routes = [
     { path: 'about', component: AboutComponent },
     { path: 'testimonials', component: TestimonialsComponent },
     { path: 'skills', component: SkillsComponent },
-    { path: 'work', component: PortfolioComponent },
+    { path: 'portfolio', component: PortfolioComponent },
     { path: 'contact', component: ContactComponent },
     { path: 'services', component: ServicesComponent },
 ];

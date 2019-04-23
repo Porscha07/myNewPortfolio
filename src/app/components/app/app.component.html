@@ -1,12 +1,5 @@
 
-<nav>
-    <a routerLink="/about" routerLinkActive="active">About</a>
-    <a routerLink="/services" routerLinkActive="active">Services</a>
-    <a routerLink="/portfolio" routerLinkActive="active">Portfolio</a>
-    <a routerLink="/work" routerLinkActive="active">Work</a>
-    <a [routerLink]="[{ outlets: { popup: ['compose'] } }]">Contact</a>
-</nav>
+
 <app-main-image></app-main-image>
-<!-- <app-about></app-about> -->
 <router-outlet></router-outlet>
 

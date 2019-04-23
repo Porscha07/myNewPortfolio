@@ -12,11 +12,11 @@ export class AppHeaderComponent implements OnInit {
   public logoSrc: string = Defaults.PORTFOLIO_LOGO_RELATIVE_PATH;
   public headerItems = {
     about: { url: 'about', headerText: 'About'},
-    testimonials: { url: 'testimonials', headerText: 'Testimonials' },
-    skills: { url: 'skills', headerText: 'Skills' },
-    portfolio: { url: 'work', headerText: 'Work'},
+    testimonials: { url: 'testimonials', headerText: 'Testimonials'},
+    skills: { url: 'skills', headerText: 'Skills'},
+    portfolio: { url: 'portfolio', headerText: 'Portfolio'},
     contact: { url: 'contact', headerText: 'Contact'},
-    services: { url: 'services', headerText: 'Services' },
+    services: { url: 'services', headerText: 'Services'}
   };
 
   constructor(

@@ -6,16 +6,10 @@
       <!-- <b><img class="logoImage" [src]="logoSrc" ></b> -->
       <b class="nameSrc">PORSCHA JOHNSON</b>
     </span>
-    <a href="#about">Test</a>
-      <a [routerLink]="'/about'">{{ headerItems.about.headerText }}</a>
     <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.about.url)" ><b>{{ headerItems.about.headerText }}</b></span>
-    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.services.url)"><b>{{ headerItems.services.headerText }}</b></span>
     <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.portfolio.url)"><b>{{ headerItems.portfolio.headerText }}</b></span>
-    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.testimonials.url)"><b>{{ headerItems.testimonials.headerText }}</b></span>
     <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.contact.url)"><b>{{ headerItems.contact.headerText }}</b></span>
   </nav>
   <!-- ******bootstrap**** -->
 </div>
-<div>
-<!-- <router-outlet></router-outlet> -->
-</div>
+
