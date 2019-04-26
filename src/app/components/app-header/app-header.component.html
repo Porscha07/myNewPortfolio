@@ -1,9 +1,12 @@
+
+
 <div class="headerPanel" id="appHeader">
 
   <!-- *****************************************HEADER LOGO PANEL********************************************* -->
+    
   <nav class="clickable homeIconPanel">
     <span class="logoContainer" (click)="home()">
-      <!-- <b><img class="logoImage" [src]="logoSrc" ></b> -->
+      <b><img class="logoImage" [src]="logoSrc" ></b>
       <b class="nameSrc">PORSCHA JOHNSON</b>
     </span>
     <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.about.url)" ><b>{{ headerItems.about.headerText }}</b></span>
