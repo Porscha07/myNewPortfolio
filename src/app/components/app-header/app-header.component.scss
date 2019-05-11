@@ -1,36 +1,54 @@
 
 .logoContainer {
-    padding-right: 16em;
+    // padding-right: 16em;
 }
 
+// .headerPanel {
+
+// }
+
+.homeIconPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: solid 3px black;
+}
+
+.homeIconPanel > div {
+    flex: 1;
+}
+
+.homeIconPanel > .about {
+    flex: 2;
+}
 .headerItem {
+    // flex: 1;
     font-size: 1.8em;
-    margin-right: 1em;
+    // margin-right: 1em;
     color: white;
 }
 
 .headerItem:hover {
     color: DeepPink;
     text-decoration: none;
-    padding-bottom: 2px;
+    // padding-bottom: 2px;
     border-bottom: 1px solid black;
     transition: border-bottom 0.5s, color 0.2s;
 }
 
-.logImage {
-    height: 2em;
-}
+// .logImage {
+//     height: 2em;
+// }
 
 .nameSrc {
     font-size: 1.8em;
-    margin-left: 3em;
-    color: black;
+    // margin-left: 3em;
+    color: white;
 }
 
 .nameSrc:hover {
     color: DeepPink;
     text-decoration: none;
     padding-bottom: 2px;
-    border-bottom: 1px solid black;
     transition: border-bottom 0.5s, color 0.2s;
 }

@@ -1,18 +1,17 @@
 
 
-<div class="headerPanel" id="appHeader">
+<section class="headerPanel" id="appHeader">
 
   <!-- *****************************************HEADER LOGO PANEL********************************************* -->
     
   <nav class="clickable homeIconPanel">
     <span class="logoContainer" (click)="home()">
-      <b><img class="logoImage" [src]="logoSrc" ></b>
-      <b class="nameSrc">PORSCHA JOHNSON</b>
+      <b class="nameSrc">PORSCHA <b><img class="logoImage" [src]="logoSrc" ></b> JOHNSON</b>
     </span>
-    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.about.url)" ><b>{{ headerItems.about.headerText }}</b></span>
-    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.portfolio.url)"><b>{{ headerItems.portfolio.headerText }}</b></span>
-    <span class="clickable headerItem" (click)="navigateToHeaderSection(headerItems.contact.url)"><b>{{ headerItems.contact.headerText }}</b></span>
+    <div class="clickable headerItem about" (click)="navigateToHeaderSection(headerItems.about.url)" ><b>{{ headerItems.about.headerText }}</b></div>
+    <div class="clickable headerItem portfolio" (click)="navigateToHeaderSection(headerItems.portfolio.url)"><b>{{ headerItems.portfolio.headerText }}</b></div>
+    <div class="clickable headerItem contact" (click)="navigateToHeaderSection(headerItems.contact.url)"><b>{{ headerItems.contact.headerText }}</b></div>
   </nav>
   <!-- ******bootstrap**** -->
-</div>
+</section>
 
